@@ -6,7 +6,7 @@ const Trailpack = require('trailpack')
 module.exports = class BootStrap extends Trailpack {
 
   /**
-   * TODO document method
+   * Check there a config.bootstrap file that export a function
    */
   validate () {
     if (!this.app.config.bootstrap) {
@@ -21,15 +21,7 @@ module.exports = class BootStrap extends Trailpack {
   }
 
   /**
-   * TODO document method
-   */
-  configure () {
-
-    return Promise.resolve()
-  }
-
-  /**
-   * TODO document method
+   * Listen trails:ready event and call bootstrap function
    */
   initialize () {
     this.app.on('trails:ready', () => {
