@@ -19,7 +19,7 @@
     "bootstrap"
   ],
   "dependencies": {
-    "lodash": "^4.0.0",
+    "lodash": "^4.0.1",
     "trailpack": "^1.0.0-alpha-2"
   },
   "devDependencies": {
@@ -27,7 +27,8 @@
     "eslint-config-trails": "^1.0.1",
     "mocha": "^2.3",
     "smokesignals": "^1.0.2",
-    "trailpack-core": "^1.0.0-alpha-3"
+    "trailpack-core": "^1.0.0-alpha-3",
+    "trails": "^1.0.0-alpha-7"
   },
   "bundledDependencies": [
     "trailpack"
