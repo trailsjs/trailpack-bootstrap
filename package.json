@@ -9,7 +9,10 @@
     "url": "https://github.com/trailsjs"
   },
   "files": [
-    "lib"
+    "lib",
+    "config",
+    "archetype",
+    "api"
   ],
   "main": "index.js",
   "keywords": [
