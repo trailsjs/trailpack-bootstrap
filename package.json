@@ -1,0 +1,50 @@
+{
+  "name": "trailpack-bootstrap",
+  "version": "0.0.1",
+  "description": "Trailpack to run a bootstrap function when Trails server is ready",
+  "homepage": "https://github.com/trailsjs/trailpack-bootstrap",
+  "author": {
+    "name": "trailsjs",
+    "email": "hello@trailsjs.io",
+    "url": "https://github.com/trailsjs"
+  },
+  "files": [
+    "lib",
+    "config",
+    "archetype",
+    "api"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "trailpack",
+    "trails",
+    "trailjs",
+    "bootstrap"
+  ],
+  "dependencies": {
+    "lodash": "^4.9.0",
+    "trailpack": "^1.0.0-beta-3"
+  },
+  "devDependencies": {
+    "eslint": "2.7.0",
+    "eslint-config-trails": "^1.0.4",
+    "mocha": "^2.4.5",
+    "smokesignals": "^1.0.3",
+    "trailpack-core": "^1.0.0-alpha-4",
+    "trails": "^1.0.0-beta-1"
+  },
+  "bundledDependencies": [
+    "trailpack"
+  ],
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "https://github.com/jaumard/trailpack-bootstrap",
+  "license": "MIT"
+}
