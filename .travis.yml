@@ -13,11 +13,10 @@ notifications:
 
 deploy:
   provider: npm
-  email: hello@trailsjs.org
+  email: hello@trailsjs.io
   api_key:
-    secure: TODO
+    secure: eTFYeI9LdIPUO2j8IVLKvR76ZtEwKrZ+MfKP9xbTKL3ePD0cVaYipSh4lCIim7nkHRM9s8/9ffNnGYbpmJ10MlrQB2CyTa1to7Uj5mFjLm4QQlk7sopS/Q9TE1ga8+uTg13BlQCXXv5TXxohRIZW9QKixIjGv8jsHtkUIat0N793f1tTCQqQq/xyiDV/0j1PIrB3LvPQ8R1fVKNCIBt1cqP84QQ2+Citk7mJqiRIbPxTzKkzMo0D5WyLiRHkQSYNG3cJWUQWUm7E6+6WWDy1mMen6GSuiO5wJOEwqxtyZf3rc8GmWXrXjSq+F4ztaffz0duL7s5QevPWNYDHrADzCqInweeY+F/uwv+SbPuCdj42/BwZLkD2lT+SOfjLz4uYrY0EOcEZ9tXhtCylMXqB0LDJjpQOx9937xEQ8c2NAvs8BX6k+gIdtGlP0AKpU32/qH4cihu/qWRhJiM/Wwxaqf+odvS+77nHadqI9BiMVZeM7UBob1kqDJMtv/Jdx+V2dJL3Do86xdMUgjgm3IwaBQ5OXi2QSk62709OYb0EFUykIheebCH0L8SSEChEkdcQ00chEVKy+q5KyqpqSjmD0/iRINyA3BnRKzX3quf9U45BqURd9ocGFa2eqb3xlvsMCMB6ShDmjmCO00QiiYHi4YCk7DFY10xw4uE8FT0W+dM=
   on:
     tags: true
     repo: trailsjs/trailpack-bootstrap
-    all_branches: true
-    node: 'stable'
+    node: stable
