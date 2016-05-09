@@ -16,7 +16,7 @@ const App = {
         require('../') // trailpack-bootstrap
       ]
     },
-    bootstrap: function (app) {
+    bootstrap: (app) => {
       app.bootstrapOk = true
     },
     web: {port: 3000}
