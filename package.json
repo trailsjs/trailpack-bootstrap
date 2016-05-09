@@ -22,7 +22,7 @@
     "bootstrap"
   ],
   "dependencies": {
-    "lodash": "^4.9.0",
+    "lodash": "^4.11.1",
     "trailpack": "^1.0.1"
   },
   "devDependencies": {
