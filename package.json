@@ -1,7 +1,7 @@
 {
   "name": "trailpack-bootstrap",
   "version": "1.0.1",
-  "description": "Trailpack to run a bootstrap function when Trails server is ready",
+  "description": "Trailpack to run a bootstrap function when Trails server is ready ",
   "homepage": "https://github.com/trailsjs/trailpack-bootstrap",
   "author": {
     "name": "trailsjs",
