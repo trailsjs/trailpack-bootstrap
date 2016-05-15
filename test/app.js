@@ -18,8 +18,7 @@ const App = {
     },
     bootstrap: (app) => {
       app.bootstrapOk = true
-    },
-    web: {port: 3000}
+    }
   }
 }
 
