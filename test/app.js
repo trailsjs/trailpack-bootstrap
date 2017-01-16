@@ -11,8 +11,6 @@ const App = {
   config: {
     main: {
       packs: [
-        smokesignals.Trailpack,
-        require('trailpack-core'),
         require('../') // trailpack-bootstrap
       ]
     },
