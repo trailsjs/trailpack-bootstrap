@@ -10,7 +10,6 @@ Load in your trailpack config.
 module.exports = {
   // ...
   packs: [
-    require('trailpack-core'),
     require('trailpack-bootstrap')
   ]
 }
@@ -24,6 +23,12 @@ module.exports = function(app){
 
 }
 ```
+
+```js
+// config/index.js
+exports.bootstrap = require('./bootstrap')
+```
+
 
 ## License
 [MIT](https://github.com/trailsjs/trailpack-bootstrap/blob/master/LICENSE)

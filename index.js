@@ -9,8 +9,8 @@ module.exports = class BootStrap extends Trailpack {
    * Check there a config.bootstrap file that export a function
    */
   validate () {
-    if (!this.app.config.bootstrap) {
-      return Promise.reject(new Error('There not config.bootstrap !'))
+    if (_.isUndefined(this.app.config.bootstrap)) {
+      return Promise.reject(new Error('There is no config.bootstrap !'))
     }
 
     if (!_.isFunction(this.app.config.bootstrap)) {
@@ -38,4 +38,3 @@ module.exports = class BootStrap extends Trailpack {
     })
   }
 }
-
